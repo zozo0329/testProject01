@@ -1,5 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap");
 body {
   margin: 0px;
   padding: 0px;
-  background-color: rgb(37, 37, 37);
+  color: lime;
+  font-family: "Silkscreen", sans-serif;
+  font-style: normal;
+  background: #245400;
+  background: radial-gradient(
+    circle,
+    rgb(26, 59, 0) 30%,
+    rgb(21, 58, 0) 62%,
+    rgba(38, 38, 38, 1) 100%
+  );
 }

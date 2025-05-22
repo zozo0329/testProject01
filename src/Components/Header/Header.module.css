@@ -1,0 +1,16 @@
+.Header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-color: rgba(0, 46, 4, 0.267);
+}
+.Header img {
+  height: 250px;
+  width: 350px;
+  border-radius: 20px;
+}
+.Header h1 {
+  font-size: 20px;
+}
