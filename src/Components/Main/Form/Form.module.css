@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap");
+.Form_HERO form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  border: 5px solid lime;
+  border-radius: 20px;
+  margin: 50px 200px 50px 200px;
+  padding: 60px;
+}
+.inputHero {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.inputHero input {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 20px;
+  font-family: "Silkscreen", sans-serif;
+  font-style: normal;
+  border: none;
+  outline: none;
+  color: lime;
+  background-color: rgba(0, 0, 0, 0);
+  border-bottom: 4px solid lime;
+}
+.inputs {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  justify-content: space-evenly;
+  gap: 1.5rem;
+}
+input::placeholder {
+  color: lime;
+  font-size: 15px;
+}
+.btns {
+  display: flex;
+  justify-content: end;
+  gap: 20px;
+}
+.btns button {
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+  color: lime;
+  font-family: "Silkscreen", sans-serif;
+  font-style: normal;
+  font-size: 18px;
+  padding: 8px;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+.btns button:hover {
+  background-color: rgba(0, 0, 0, 0.514);
+  border-radius: 10px;
+}
+.btns button:active {
+  color: white;
+  transition: all 0.4s;
+  background-color: rgba(63, 63, 63, 0.562);
+}
+@media (max-width: 1000px) {
+  .inputs {
+    flex-direction: column;
+  }
+  .btns {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+@media (max-width: 750px) {
+  .Form_HERO form {
+    margin: 50px;
+    padding: 50px;
+  }
+}
